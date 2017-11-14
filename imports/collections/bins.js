@@ -9,6 +9,6 @@ Meteor.methods({
       ownerId: this.userId
     });
   }
-})
+});
 
 export const Bins = new Mongo.Collection('bins');
